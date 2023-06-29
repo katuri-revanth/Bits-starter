@@ -1,0 +1,298 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+color: white;
+}
+.global-button
+{
+    width: 200px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-container
+{
+    background-color: grey;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.nav-center{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+}
+.nav-center .hamberger{
+    display: none;
+}
+.nav-center .logosection
+{
+    width:50px;
+}
+.nav-center .nav-links-main{
+    width: 20px;
+    display: flex;
+    justify-self: flex-start;
+}
+.nav-center .nav-links{
+    display: flex;
+    column-gap: 20px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.nav-links :hover{
+    background: gray;
+}
+.social-links-main .social-links img{
+    width: 30px;
+}
+.social-links-main .social-links{
+    display: flex;
+    column-gap: 20px;
+    justify-content: end;
+    align-items: center;
+    padding-top: 10px;
+}
+.index
+{
+    background: url(./../assets/university-banner-1) no-repeat center/cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+.contact
+{
+    background: url(./../assets/contact-banner.jpeg) no-repeat center/cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    
+}
+.course{
+    background: url(./../assets/courses-banner.jpeg) no-repeat center/cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+.about
+{
+    background: url(./../assets/about-banner.jpeg) no-repeat center/cover;
+    background-color: rgb(77, 77, 77);
+    background-blend-mode: multiply;
+}
+.name{
+    text-align: center;
+    padding: 300px;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-weight: bold;
+}
+.hero-names
+{
+    text-align: center;
+    padding: 200px;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-weight: bold;
+}
+.hero .college
+{
+    padding-bottom: 30px;
+}
+.feautured
+{
+    padding: 10px;
+    background-color: rgb(170, 219, 238);
+}
+.feature-center{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.feature-center .cou{
+    border: 3px solid gray;
+    background: white;
+    box-shadow: 3px 3px gray;
+}
+.feature-center .course{
+    width: 100%;
+    height: 300px;
+}
+.cou h1{
+    color:rgb(84, 84, 243);
+    text-align: center;
+}
+.campuses
+{
+    padding: 10px;
+    background-color:lightpink;
+}
+.campus .cam{
+    border: 3px solid gray;
+    background: white;
+    box-shadow: 3px 3px gray;
+}
+
+.campus{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom:50px ;
+}
+.campus .raj{
+    width: 100%;
+    height: 400px;
+}
+.cam h1{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+.cam h3{
+    margin: 20px;
+}
+.campu{
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgb(226, 214, 214);
+
+}
+.facilties
+{
+    padding: 10px;
+    background-color:rgb(184, 224, 239);
+}
+.faci .fac{
+    border: 3px solid gray;
+    background: white;
+    box-shadow: 3px 3px gray;
+    height: 650px;
+}
+
+.faci{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom:50px ;
+}
+.faci .facility{
+    width: 100%;
+    height: 400px;
+}
+.cont{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(249, 212, 218);
+    text-align: center;
+    color: white;
+}
+.cont .enroll{
+    background: url("./../assets/contact-promotion.jpeg") no-repeat center/cover;
+    background-color: rgb(56, 55, 55);
+    background-blend-mode: multiply;
+    padding: 150px;
+    margin-top: 50px;
+}
+.abouts
+{
+    padding: 50px;
+    background-color: rgb(217, 246, 248);
+}
+/*.cot{
+    background-color: blueviolet;
+    border: 3px solid snow;
+}*/
+.cot-text{
+    border: 2px solid black;
+    margin: 10px;
+    width:50%;
+    height: 50px;
+    border-radius: 5px;
+}
+.aboutss
+{
+    width: 100%;
+}
+.abouts-us
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.footer
+{
+    background:url("./../assets/footer-img.jpeg") no-repeat center/cover;
+    background-color: rgb(71, 71, 71);
+    background-blend-mode:multiply;
+    padding: 15px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-center{
+   display: flex;
+   flex-direction: column;
+   row-gap: 10px;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+}
+.social-links :hover{
+    background-color: grey;
+}
+
+.footer-links .foot {
+    display: flex;
+    column-gap: 50px;
+}
+.foots{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.footer-social-links .social-links img{
+    width: 50px;
+    border: 3px solid black;
+    border-radius: 60%;
+    padding: 20px;
+}
+.footer-social-links .social-links
+{
+    display: flex;
+    column-gap: 20px;
+}
+.footer-social-links .social-links :hover{
+    background: -moz-repeating-linear-gradient(red);
+    
+}
